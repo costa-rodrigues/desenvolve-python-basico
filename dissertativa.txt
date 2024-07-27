@@ -1,0 +1,122 @@
+Solução Dissertativa 
+
+Para calcular a multiplicação de 9 por qualquer valor n usando o truque da tabuada do 9, podemos seguir os seguintes passos: 
+
+1- Entrada de Dados: Primeiro, recebemos o valor de n para o qual desejamos calcular 9 × n. 
+
+2- Processamento: 
+
+- Calculamos o primeiro dígito (digito 1) subtraindo 1 de n: digito 1 = n − 1. 
+
+- Calculamos o segundo dígito (digito 2 ) subtraindo n de 10: digito 2=10−n. 
+
+3- Saída de Dados: O resultado da multiplicação é obtido multiplicando digito1 por 10 e somando digito2 : 
+
+9 × n = digito 1 × 10 + digito  2 
+
+- Por exemplo, para n=3 : 
+
+Digito1 = 3 − 1 =2  
+
+Digito 2  =10 − 3 = 7 
+
+O resultado é  9 × 3 = 2 × 10 + 7 = 27 
+
+Resolução da tabuada dos 9: 
+
+ 
+N=1: 
+
+1-1  = 0 
+
+10 -1= 9 
+
+9 x 1 = 0 x 10 + 9 = 09 
+
+ 
+
+N = 2: 
+
+2 – 1 = 1 
+
+10 – 2 = 8 
+
+9 x 2 = 1 x 10 + 8 = 18 
+
+N=3: 
+
+3-1 =  2  
+
+10 – 3 = 7 
+
+9 x 3 = 2 x 10 + 7 = 27 
+
+ 
+
+N=4: 
+
+4 –1 = 3 
+
+10 – 4 = 6 
+
+9 x 4 = 3 x 10 + 6 = 36 
+
+ 
+
+N=5: 
+
+5-1 = 4 
+
+10 – 5 = 5 
+
+9 x 5 = 4 x 10 + 5 = 45 
+
+ 
+
+N=6: 
+
+6 -1= 5 
+
+10 – 6 =4 
+
+9 x 6 = 5 x 10 + 4 = 54 
+
+ 
+
+N=7: 
+
+7 – 1 = 6 
+
+10 – 7 = 3 
+
+9 x 7 = 6 x 10 + 3 = 63 
+
+ 
+
+N=8: 
+
+8 –1 = 7 
+
+10 – 8 = 2 
+
+9 x 8 = 7 x 10 + 2 = 72 
+
+ 
+
+N=9: 
+
+9 –1 = 8 
+
+10 – 9 = 1 
+
+9 x 9 = 8 x 10 + 1 = 81 
+
+ 
+
+N=10: 
+
+10 –1 = 9 
+
+10 –10 =0 
+
+9 x 10 = 9 x 10 + 0 = 90
