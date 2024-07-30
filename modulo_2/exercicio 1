@@ -1,0 +1,121 @@
+Módulo 2
+2.1 Variáveis
+Q1.
+Selecione todos os itens a seguir que contém nomes válidos de variáveis. Lembre-se que alguns nomes com estrutura válida são palavras reservadas da linguagem e portanto não podem nomear variáveis.
+
+a) nome_completo 
+b) quantidade@produtos	
+c) idade	
+d) soma idades 
+e) MediaNotas
+f) _tipo
+g) 2total
+h) lambda
+# Preencha o print com as alternativas corretas
+# separadas por espaços em branco.
+# Ex: print("a b c")
+print("a c e f ")
+a c e f 
+Módulo 2
+2.1 Variáveis
+Q1.
+Selecione todos os itens a seguir que contém nomes válidos de variáveis. Lembre-se que alguns nomes com estrutura válida são palavras reservadas da linguagem e portanto não podem nomear variáveis.
+
+a) nome_completo 
+b) quantidade@produtos	
+c) idade	
+d) soma idades 
+e) MediaNotas
+f) _tipo
+g) 2total
+h) lambda
+Q2.
+Dados os scripts a seguir, faça:
+
+Para os scripts corretos escreva o resultado impresso ao final da execução
+Para os incorretos descreva todos os erros identificados apontando a linha onde cada erro acontece.
+# Script 1
+x = 10
+y = x + 2
+print(y - 5)
+# preencha o print com sua resposta
+x=10
+y=x+2
+print(y-5)
+print("o script esta correto")
+7
+o script irá funcionar se for colocada em cada célula as variáveis e seu respectivos valores e na última célula executar o print
+# Script 2
+soma = n1 + n2
+print(soma)
+# preencha o print com sua resposta
+soma = n1 + n2
+print(soma)
+print("o script vai dar erro pois não foi salvo valores nas variáveis n1 e n2 ")
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[20], line 2
+      1 # preencha o print com sua resposta
+----> 2 soma = n1 + n2
+      3 print(soma)
+      4 print("o script vai dar erro pois não foi salvo valores nas variáveis n1 e n2 ")
+
+NameError: name 'n1' is not defined
+# Script 3
+a = 10
+a = a + 1
+print(a)
+# preencha o print com sua resposta
+a = 10
+a = a + 1
+print( a )
+print(" o script esta correto ")
+11
+ 
+# Script 4
+saldo da conta = 1500
+0.1 = juros
+print(saldo da conta * juros)
+# preencha o print com sua resposta
+saldo da conta = 1500
+0.1 = juros
+print(saldo da conta * juros)
+print(" há um erro: o nome da variável 'juros' esta após o valor da variável ")
+  Cell In[22], line 2
+    saldo da conta = 1500
+          ^
+SyntaxError: invalid syntax
+Q3.
+Declare três variáveis, num1, num2 e num3, com valores inteiros numéricos de sua escolha. Calcule e imprima a média desses três números. Utilize a fórmula: (num1 + num2 + num3) / 3.
+
+## Escreva e execute seu código aqui
+num1 = 5
+num2 = 2
+num3 = 3
+print(num1 + num2 + num3)
+10
+Q4.
+Escreva um script python que:
+
+Armazene em uma variável uma velocidade de 90 km/h
+Calcule e armazene o equivalente em m/s
+Divida o valor original por 3.6 para obter o resultado em m/s. Em python a sintaxe da divisão e atribuição é c = a / b
+Imprima na tela a velocidade o resultado m/s
+## Escreva e execute seu código aqui
+velocidade = 90
+variável = 3.6
+print( velocidade / variável)
+25.0
+Q5.
+Escreva um script python que:
+
+Armazene o seu nome em uma variável
+Dica: para armazenar textos em variáveis basta colocar a palavra desejada entre aspas, ex: "Camila", à direita do operador de atribuição.
+Imprima o texto "Meu nome é:"
+Imprima a variável com seu nome
+## Escreva e execute seu código aqui
+meu_nome = "lucas"
+print("meu nome é:")
+print( meu_nome )
+meu nome é:
+lucas
