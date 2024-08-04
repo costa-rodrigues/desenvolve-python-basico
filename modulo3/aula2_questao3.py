@@ -1,0 +1,7 @@
+idade_jogador = int(input("qual a sua idade ? "))
+print("Vocé já jogou pelo menos 3 jogos de tabuleiro ?")
+quantidade_jogada = bool(input("Digite True para verdadeiro e False para falso : "))
+quantidade_vitorias = int(input("quantas vezes venceu ? "))
+pode_entrar = (16 <= idade_jogador <= 18) and quantidade_jogada and (quantidade_vitorias >= 1)
+print("vocé poderá entrar ? ")
+print(pode_entrar)
